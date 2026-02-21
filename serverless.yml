@@ -1,5 +1,5 @@
 # "org" ensures this Service is used with the correct Serverless Framework Access Key.
-org: foobar
+#org: foobar
 # "app" enables Serverless Framework Dashboard features and sharing them with other Services.
 app: test
 
