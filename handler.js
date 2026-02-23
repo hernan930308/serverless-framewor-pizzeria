@@ -1,6 +1,6 @@
 import { v4 as uuidv4 } from 'uuid';
 
-const { SQSClient, SendMessageCommand } = require ("@aws-sdk/client-sqs");
+import { SQSClient, SendMessageCommand } from "@aws-sdk/client-sqs";
 
 // Create an SQS client
 const sqsClient = new SQSClient({ region: process.env.REGION });
